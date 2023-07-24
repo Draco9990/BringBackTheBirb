@@ -1,21 +1,5 @@
 
-var myFunction = function homeButton(){
-	console.log("AAAAAAAAAAAAAAAAAAAAAAAA");
-	
-	//var nodes = document.getElementsByClassName("css-1dbjc4n");
-	//var homeButton;
-	
-	//var foundLogo = false;
-	//for(var i = 0; i < nodes.length; i++){
-		//if(nodes[i].hasAttribute("aria-label")){
-		//	if(nodes[i].getAttribute("aria-label") === "Timeline: Your Home Timeline"){
-		//		homeButton = nodes[i];
-		//		foundLogo = true;
-		//		break;
-		//	}
-		//}
-	//}
-	
+var myFunction = function homeButton(){	
 	var icons = document.querySelectorAll("svg");
 
 	icons.forEach((svg) => {
